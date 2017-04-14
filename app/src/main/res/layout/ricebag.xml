@@ -1,0 +1,137 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#6699ff"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/greybackground"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="22dp"
+                android:text="RICEBAG ORDER"
+                android:textSize="18dp"
+                android:textColor="#2683c2"
+                android:gravity="left" />
+            <ImageView android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:background="@drawable/ricebag"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal" />
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/city"
+                android:hint="Select City"
+                android:background="@drawable/txtbox_row_border"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="right"
+                android:paddingTop="0dp"
+                android:paddingRight="50dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/invisible" />
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/name"
+                android:hint="Name"
+                android:background="#f3f3f3"
+                android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/mobile"
+                android:hint="Mobile"
+                android:background="#f3f3f3"
+                android:maxLength="10"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/address"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/noofbags"
+                android:hint="No Of Bags"
+                android:background="@drawable/txtbox_row_border"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="right"
+                android:paddingTop="0dp"
+                android:paddingRight="50dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/invisible1" />
+            <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="wrap_content" android:orientation="horizontal"
+                android:layout_width="fill_parent">
+
+                <Button android:layout_width="140dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/submit"
+                    android:text="submit"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true" />
+                <Button android:layout_width="140dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/cancel"
+                    android:text="cancel"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

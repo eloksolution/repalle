@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_sridhar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="శ్రీధర్ బాబు"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="రేపల్లె నియోజకవర్గం ని  అన్ని రంగాలలో , అభివృద్ధి లోనికి తీసుకుని వచ్చి ,మన నియోజకవర్గం ని రాష్ట్రంలోనే ఒక మోడల్ నియోజకవర్గం గా తీసుకుని రావాలన ేఉ ద్దేశ్యం తో ఈ రేపల్లె పరిరక్షణ సమితి ప్రారంభించడం జరిగింది. ఈ కార్యాచరణ లో బాగం గా మేము ఒక్కో అడుగు ముందుకు వేయడం జరుగుతుంది. మేము చేసే ప్రతి  మంచిపనికి ఎప్పుడు మీ సహాయ సహకారాలు అందిస్తారని ఆశిస్తూ."
+            android:id="@+id/textView"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="మీ శ్రీధర్ బాబు పురమా,"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="రేపల్లె నియోజకవర్గ పరిరక్షణ సమితి,"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="నిజం , నిర్భయం – మా నైజం    నియోజక అభివృద్ధి ,అవినీతి నిర్మూలన –మా ధ్యేయం"
+            android:id="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="మొబైల్ : 8790577457"
+            android:id="@+id/textView5"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</ScrollView>

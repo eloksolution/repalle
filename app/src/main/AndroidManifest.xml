@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activities.repalle.info.repalle" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.repalle.niyojakavargam.activities.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.repalle.niyojakavargam.activities.Home">
+        </activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.MainActivity"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.SubMenu"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.Cities"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.Temples"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.Villages"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.LadiesSpecial"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.SpecialServices"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.WebActivity"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.StoresActivityGrid"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.Repair"></activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.CabBooking"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.WaterCan"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.RiceBag"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.JoinWithUs"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.BloodDonars"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity android:name="info.repalle.niyojakavargam.activities.BloodRequest"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+    </application>
+
+</manifest>
